@@ -12,7 +12,7 @@ export default class MapView extends Component {
       +
       "SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=World_Imagery&STYLE=default&TILEMATRIXSET=w&FORMAT=tiles"
       +
-      "&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&tk=3058dfd1d4f8ef4ca9e555c8ecdbbfab";
+      "&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&tk=申请的服务许可（Key）";
 
     //创建自定义图层对象
     const lay = new window.T.TileLayer(imageUrl, {minZoom: 1, maxZoom: 18});
